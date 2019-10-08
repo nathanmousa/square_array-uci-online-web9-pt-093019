@@ -2,6 +2,6 @@ def square_array(array)
   new_array = []
   
   array.each do |x|
-    array[x.index]
+    array[array.index(x)] = x ** 2
   end
 end
